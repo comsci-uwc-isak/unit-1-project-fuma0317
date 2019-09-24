@@ -26,7 +26,7 @@ Third, if you want to make the file deletable, you should make a autmatical back
 Design
 ---------
 ### First sketch of the system
-![systemDiagram]()
+![systemDiagram](IMG_2213.JPG)
 
 Development
 --------
