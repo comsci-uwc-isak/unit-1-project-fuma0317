@@ -30,6 +30,9 @@ Design
 
 Development
 --------
+### 1. Script to install the app
+The following script creates the folder structure
+
 
 Evaluation
 -----------
