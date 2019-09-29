@@ -4,7 +4,8 @@ Today, I identified the input and output of various program and list up the step
 And also, I saw the expalanation of car rental.
 What I learned is that how to indentify the input and output and I felt this process is really important before you make a program.  I learned that steps should be understandable for people wh don't know how to code.
 
-#installation program
+**installation program
+
 #!/bin/bash
 
 #This file creates the folder structure for the
@@ -30,27 +31,49 @@ mkdir db
 mkdir scripts
 echo "structure created successfully"
 
-9/27 19
+**9/27 19
 Reflection
 Today, I reviewed how to use for loop through making the system which shows the frame and also learned how to repeat for loop.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #frame program
+
+
+**Friday hw repeat 0123 and stop at the count user typed
+
+#!/bin/bash
+
+#This program is for repeating the pattern 0123 0123, for a length of n numbers
+
+#get the randam number from user
+declare -i num
+echo "Please type one integer"
+read num
+
+#show the sequence
+declare -i it
+declare -b bo
+
+bo=true
+while [[ $bo ]]; do
+	for i in $(seq 0 3);do
+		echo $i
+		((it++))
+		if [[ $it -eq $num  ]];then
+			exit 1	
+		fi
+	done
+done
+
+**Friday hw greet with full name
+
+#!/bin/bash
+
+#This program is for greeting the user with his full name.
+
+#get full name
+
+
+echo "Hello $USER!!"
+
