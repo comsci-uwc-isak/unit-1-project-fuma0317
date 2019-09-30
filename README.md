@@ -33,6 +33,14 @@ Development
 ### 1. Script to install the app
 The following script creates the folder structure
 
+**Create
+
+1. get input
+1. Check nuumber of arguments 
+    if 4 then continue, if not exit "message"
+1. Write to main file with one extra line.   Not erasing other Entries.
+1. Create car trip file with License plate.txt
+
 
 Evaluation
 -----------
