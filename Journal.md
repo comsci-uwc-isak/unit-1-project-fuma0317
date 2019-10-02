@@ -77,3 +77,7 @@ done
 
 echo "Hello $USER!!"
 
+**Reflection/ 10/02/2019
+Today, I presented my coodings for proposing the solution for editing system.
+And I found a lot of issues such as how to use single argument or how to label each file to make it easier to select the file.		
+
