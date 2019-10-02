@@ -23,6 +23,23 @@ Secondable, when you correct the trip history with the place name, the data prob
 
 Third, if you want to make the file deletable, you should make a autmatical back-up system which automatically save the data after you edit it. 
 
+### Solution proposed
+Rationale for proposed solution
+
+I decided that choosing bash would be the best solution for Car rental app because 
+
+
+### Success Criteria
+This are measurable outcomes
+1. A car can be created and stored in the database 
+1. A car information can be edited 
+1. A car can be deleted from the database
+1. The installation is ***simple-> one step process***.
+1. A summary (total/average distance traveled) can be generated for a particular car
+1. Trips can be recorded and stored for an existing car
+1. A basic database system is implemented
+1. A basic backup functionality is avialable.
+
 Design
 ---------
 ### First sketch of the system
