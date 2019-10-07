@@ -32,6 +32,7 @@ mkdir scripts
 echo "structure created successfully"
 
 **9/27 19
+
 Reflection
 Today, I reviewed how to use for loop through making the system which shows the frame and also learned how to repeat for loop.
 
@@ -78,6 +79,7 @@ done
 echo "Hello $USER!!"
 
 **Reflection/ 10/02/2019
+
 Today, I presented my coodings for proposing the solution for editing system.
 And I found a lot of issues such as how to use single argument or how to label each file to make it easier to select the file.		
 
