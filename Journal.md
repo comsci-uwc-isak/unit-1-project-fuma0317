@@ -81,5 +81,27 @@ echo "Hello $USER!!"
 **Reflection/ 10/02/2019
 
 Today, I presented my coodings for proposing the solution for editing system.
-And I found a lot of issues such as how to use single argument or how to label each file to make it easier to select the file.		
+And I found a lot of issues such as how to use single argument or how to label each file to make it easier to select the file.
+
+**Program for changing the name of car file
+
+#edit the file
+echo "If you want to edit the name of file, please type EDIT"
+read res
+if [$res = EDIT]; then
+    cd ~/Desktop/RentalCarApp/db/maincarfile.txt
+    echo ls
+    echo "Please select the file you want to edit with Plate, Model, Color, PP"
+    read file
+fi
+if [ -e $file ]; then
+    echo "Please rename the file with Plate, Model, Color, PP"
+    read rename
+    mv $file $rename
+
+    else echo "$file NOT found"
+fi
+
+**Program for changing the contents of car file
+
 
