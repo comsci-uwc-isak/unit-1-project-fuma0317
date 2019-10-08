@@ -26,7 +26,8 @@ Third, if you want to make the file deletable, you should make a autmatical back
 ### Solution proposed
 Rationale for proposed solution
 
-I decided that choosing bash would be the best solution for Car rental app because 
+I decided that choosing bash would be the best solution for Car rental app because bash is a kind of shells cript and it can be made in terminal which is really familiar with us and also even if you use windows you can download it easily.
+And it is easy to understand the structure for beginners.
 
 
 ### Success Criteria
@@ -61,6 +62,18 @@ The following script creates the folder structure
 
 Evaluation
 -----------
+Test 1:
+First run of the test file was unsuccessful because the Database folder was not existent.  
+Also the create program did not store the license file inside the Database folder.  Changing the line `echo " " > $license.txt to `echo 
+```.sh
+cd ../
+```
+This is necessary because the `create.sh` resides in the ain folder whereas the test file is inside the /tests folders.
+To check that the car was created in the main file (maincarfile.txt), the folowing command is used `lastLine = $( tail -n 1 Database/maincarfile.txt )` which is used for setting the last line at the end of the file in valuable.
+`""` is used for recognizing itself as one sentence
+
+**Summary:** 
+What types of test we did today is that White-box testing.  We firstly create the demo file for testing and then create the program for checking if the file exists or not. And after that, check if the car file was actually added to to the main file by comparing the last line of main file and content of car file.   
 
 
 
