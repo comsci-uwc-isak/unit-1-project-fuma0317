@@ -16,7 +16,7 @@ echo "Press Enter"
 
 read
 
-#moving to the desired location
+#moving to desktop
 echo "moving to desktop"
 
 #Check for correct change directory
