@@ -137,6 +137,37 @@ else
 	echo "Test two: Failed"
 fi
 ```
+**HW delete program for car data
+
+```
+#!/bin/bash
+
+#This program is for deleting a single car file
+
+#moving to database file
+cd ~/Desktop/RentalCarApp/db/
+
+#get argument of plate and check if it exits and delete the car file
+plate=$1
+
+if [[ ($# -ne 1) ]];then
+	echo "Input is wrong, please type Plate again"
+
+
+elif [ ! -f "$1.txt" ];then
+	echo "The file don't exis. Please try again"
+
+else 
+	rm $1.txt
+	echo "The file was successfully deleted"
+fi
+
+
+#delete whole line which includes the plate
+sed -i '' "/$1/d" maincarfile.txt
+echo "The car information was successfully deleted"
+```
+**HW test program for installation
 
 
 
