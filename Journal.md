@@ -108,7 +108,7 @@ if [ -e $file ]; then
 fi
 ```
 
-**Test program
+**Test program for create.sh
 
 ```
 #!/bin/bash
