@@ -5,7 +5,7 @@ And also, I saw the expalanation of car rental.
 What I learned is that how to indentify the input and output and I felt this process is really important before you make a program.  I learned that steps should be understandable for people wh don't know how to code.
 
 **installation program
-
+```
 #!/bin/bash
 
 #This file creates the folder structure for the
@@ -30,7 +30,7 @@ cd RentalCarApp
 mkdir db
 mkdir scripts
 echo "structure created successfully"
-
+```
 **9/27 19
 
 Reflection
@@ -43,6 +43,7 @@ Today, I reviewed how to use for loop through making the system which shows the 
 
 **Friday hw repeat 0123 and stop at the count user typed
 
+```
 #!/bin/bash
 
 #This program is for repeating the pattern 0123 0123, for a length of n numbers
@@ -66,9 +67,11 @@ while [[ $bo ]]; do
 		fi
 	done
 done
+```
 
 **Friday hw greet with full name
 
+```
 #!/bin/bash
 
 #This program is for greeting the user with his full name.
@@ -77,6 +80,7 @@ done
 
 
 echo "Hello $USER!!"
+```
 
 **Reflection/ 10/02/2019
 
@@ -85,6 +89,7 @@ And I found a lot of issues such as how to use single argument or how to label e
 
 **Program for changing the name of car file
 
+```
 #edit the file
 echo "If you want to edit the name of file, please type EDIT"
 read res
@@ -101,9 +106,11 @@ if [ -e $file ]; then
 
     else echo "$file NOT found"
 fi
+```
 
 **Test program
 
+```
 #!/bin/bash
 
 #This file test the first success criterion, namely,
@@ -129,6 +136,7 @@ if [ "TXM 301 nissan red 9" == $lastline ]; then
 else
 	echo "Test two: Failed"
 fi
+```
 
 
 
