@@ -196,5 +196,44 @@ else
 	echo "Test three: Error. File not found: not passed"
 fi
 ```
+**Summary program for calculating the total km
+```
+#!/bin/bash
+
+#This program is for summarizing car data
+bash frame.sh Summary
+#get argument from user first
+if [ $# -ne 1 ];then
+  echo "Enter a license number"
+  exit
+else
+    #check that car file exits
+    cd ../db/
+    if [ ! -f "$1.txt" ];then
+      echo "File not found"
+      exit
+    else
+      #caluculate the total km
+      echo "File exits. Starting summary"
+      while read line;
+        do
+          for km in $line
+          do
+            (( total=$total+$km ))
+            break
+          done
+        done < "$1.txt"
+#Show result nicely
+cd ../scripts/
+bash frame.sh "Tottal distance traveled for $1 was $total"
+exit
+fi
+fi
+```
+**Reflection 10/9/2019
+
+Today I made the summary program for calculating the total km of single car.
+I reviewed how to use while loop and for loop and also how to check if the file exits.  I remembered them almost all of them so i felt I made some progress.
+
 
 
