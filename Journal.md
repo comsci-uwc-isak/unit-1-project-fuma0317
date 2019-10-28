@@ -230,10 +230,19 @@ exit
 fi
 fi
 ```
-**Reflection 10/9/2019
-
+**Reflection 10/9/2019**
 Today I made the summary program for calculating the total km of single car.
 I reviewed how to use while loop and for loop and also how to check if the file exits.  I remembered them almost all of them so i felt I made some progress.
+
+**Reflection 10/28/2019**
+Q1.What skill have you developed so far?
+	I have learned so many basic skills such as many ways to use for loop, ways to use if and some commands which is 	RANDOM, seq..
+Q2.What have worked for you in the classroom of cs?
+	Dr.Ruben's advice always helped me whenever I asked some questions. 
+Q3.What are some things strategies that you would change in the cs classroom to achieve your best in the next 6 weeks?
+	For me, the style we did today is favorite which some of HL sttudents propose the solution to us and teacher teachs the give some advices about it.
+
+
 
 
 
