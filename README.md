@@ -50,6 +50,63 @@ Development
 --------
 ### 1. Script to install the app
 The following script creates the folder structure
+1. Move to Desktop
+1. Create file "RentalCarApp" and go inside
+1. Create db and scripts file inside
+
+```
+#!/bin/bash
+
+#This file creates the folder structure for the 
+#minimal Car Rental App
+
+echo "Starting the installation"
+echo "Press enter to continue installation"
+
+read 
+
+#moving to the desktop
+echo "Files will be created in DESKTOP"
+echo "moving to desktop"
+
+#Check for correct change directory
+cd ~/Desktop
+
+#Create App folder
+mkdir RentalCarApp 
+
+cd RentalCarApp
+
+#Create folder for database and scripts
+mkdir db 
+mkdir scripts
+
+bash frame.sh "structure created successfully"
+exit
+```
+### 2. script to uninstall the app
+The following script delete the file of app
+1. get input from user (do you want to uninstall yes or no)
+1. if it's yes, remove the app
+1. if it's no, just exit
+
+```
+#!/bin/bash
+#This program uninstalls the app
+echo "Would you like to uninstall CarRentalApp? Type yes or no and press enter"
+read cho
+if [ $cho == yes ]; then
+	echo "Uninstalling file"
+	rm -r ~/Desktop/CarRentalApp/
+	bash frame.sh "UNINSTALLED SUCCESSFULLY"
+else
+	echo "The file will be not uninstalled"
+	exit
+fi
+```
+
+
+
 
 **Create
 
