@@ -1,6 +1,6 @@
 #!/bin/bash
 #This program edit the information of an exiting car in the maincarfile
-#user enters [license plate] [model] [red] [pp]
+#user enters [license plate] [model] [color] [pp]
 
 if [ $# -ne 4 ]; then
 	echo "Error with the number of arguments"

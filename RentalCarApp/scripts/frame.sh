@@ -19,7 +19,7 @@ echo -n "*"
 
 for (( i=1; i<99; i++ ))
 do
-	echo -n " "
+echo -n " "
 done
 echo -n "*"
 echo " "
@@ -30,7 +30,7 @@ len=${#word}
 echo -n "*"
 for (( i=1; i<$spacing; i++))
 do
-	echo -n	" "
+echo -n    " "
 done
 
 echo -n $word
@@ -41,7 +41,7 @@ echo -n $word
 
 for (( i=( 100-$spacing ); i<99; i++))
 do
-	echo -n " "
+echo -n " "
 done
 
 (( odd=($spacing+$spacing+$len) ))
@@ -55,7 +55,7 @@ echo " "
 echo -n "*"
 for (( i=1; i<99; i++ ))
 do
-        echo -n " "
+echo -n " "
 done
 echo -n "*"
 echo " "
