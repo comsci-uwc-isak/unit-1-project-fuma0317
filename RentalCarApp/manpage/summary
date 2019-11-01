@@ -1,0 +1,11 @@
+.TH man 6 "31 Oct 2019" "1.0" "summary man page"
+.SH NAME
+summary \- summarize a car or all cars
+.SH SYNOPSIS
+bash summary.sh [license plate]
+.SH DESCRIPTION 
+summary is a script that summarize a record in the database
+.SH EXAMPLES
+bash summary.sh LXH798
+.SH AUTHOR
+Programmer_Fuma Ito

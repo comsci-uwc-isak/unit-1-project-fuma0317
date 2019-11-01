@@ -1,0 +1,12 @@
+.TH man 6 "31 Oct 2019" "1.0" "backup man page"
+.SH NAME
+backup \- backup app
+.SH SYNOPSIS
+bash backup.sh [desired location]
+.SH DESCRIPTION
+backup is a script that backups app in location that you want to save
+.SH EXAMPLES
+bash backup.sh Desktop
+.SH AUTHOR
+Programmer_Fuma Ito
+

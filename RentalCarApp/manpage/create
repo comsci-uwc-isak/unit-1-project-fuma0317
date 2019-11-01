@@ -1,0 +1,11 @@
+.TH man 6 "28 Oct 2019" "1.0" "create man page"
+.SH NAME
+create \- create a new car
+.SH SYNOPSIS
+bash create.sh [license] [color] [passengers]
+.SH DESCRIPTION
+create is a script that creates a new record in the database
+.SH EXAMPLES
+bash create.sh LXH798 Mazda Red 3
+.SH AUTHOR
+Programmer_Fuma Ito

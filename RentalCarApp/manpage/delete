@@ -1,0 +1,11 @@
+.TH man 6 "31 Oct 2019" "1.0" "delete man page"
+.SH NAME
+delete \- delete a car
+.SH SYNOPSIS
+bash deletecar.sh [license plate]
+.SH DESCRIPTION
+delete is a script that deletes a record in the database
+.SH EXAMPLES
+bash deletecar.sh LXH798
+.SH AUTHOR
+Programmer_Fuma Ito

@@ -1,0 +1,11 @@
+.TH man 6 "31 Oct 2019" "1.0" "edit man page"
+.SH NAME
+edit \- edit a car
+.SH SYNOPSIS
+bash edit.sh [license plate] [model] [color] [passengers]
+.SH DESCRIPTION
+edit is a script that edits a record in the database
+.SH EXAMPLES
+bash edit.sh 123 toyota red 4
+.SH AUTHOR
+Programmer_Fuma Ito

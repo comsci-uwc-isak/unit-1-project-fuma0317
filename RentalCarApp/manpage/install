@@ -1,0 +1,11 @@
+.TH man 6 "31 Oct 2019" "1.0" "install man page"
+.SH NAME
+install \- install app
+.SH SYNOPSIS
+bash install.sh 
+.SH DESCRIPTION 
+install is a script that installs app
+.SH EXAMPLES
+bash install.sh
+.SH AUTHOR
+Programmer_Fuma Ito
