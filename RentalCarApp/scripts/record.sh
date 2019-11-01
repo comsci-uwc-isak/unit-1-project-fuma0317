@@ -12,7 +12,7 @@ cd ~/Desktop/RentalCarApp/db/
 
 #get 4 arguments and check if the exits and record the data in it
 if [[ ($# -ne 4) ]];then
-    echo "Input is wrong, please type Plate, kilometers, dateout and datei. Please try again"
+    echo "Input is wrong, please type Plate, kilometers, dateout and datein. Please try again"
 
 elif [ ! -f "$1.txt" ];then
     echo "The file don't exist, please create a car file first"
