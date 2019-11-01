@@ -1,56 +1,68 @@
 #!/bin/bash
-#This program is for showing the frame for welcoming message
+
+echo "enter"
+
+#this code reads argument, which is bash frame *argument
 word=$1
 
-#show X frame
+
 for (( i=0; i<100; i++ ))
 do
-	echo -n "X"
+echo -n "*"
 done
 echo " "
 
-echo -n "X"
 
-for (( i=0; i<99; i++ ))
+
+echo -n "*"
+
+
+for (( i=1; i<99; i++ ))
 do
 	echo -n " "
-	done
-echo -n "X"
+done
+echo -n "*"
 echo " "
 
 len=${#word}
-((spacing=(100-$len)/2))
+(( spacing=(100-$len)/2 ))
 
-echo -n "X"
-for (( i=0; i<$spacing; i++ ))
-do 
-	echo -n " "
-
+echo -n "*"
+for (( i=1; i<$spacing; i++))
+do
+	echo -n	" "
 done
-echo -n "$word"
 
-for (( i=(100-$spacing); i<99; i++ ))
+echo -n $word
+#page 1
+
+
+
+
+for (( i=( 100-$spacing ); i<99; i++))
 do
 	echo -n " "
 done
 
-((odd=($spacing+$spacing+$len)))
+(( odd=($spacing+$spacing+$len) ))
 if [ $odd -eq 99 ]; then
-    echo -n " "
+echo -n " "
 fi
-echo -n "X"
+echo -n "*"
+
 
 echo " "
-echo -n "X"
+echo -n "*"
 for (( i=1; i<99; i++ ))
 do
-    echo -n " "
+        echo -n " "
 done
-echo -n "X"
+echo -n "*"
 echo " "
 
-for ((i=0; i<100; i++))
+for (( i=0; i<100; i++ ))
 do
-    echo -n "X"
+echo -n "*"
 done
 echo " "
+
