@@ -109,6 +109,9 @@ The following script creates car and its txt file
 1. get input from user(license plate, model, color, passengers)
 1. record the sentence in maincarfile.txt
 1. create car file
+
+flow diagram for create.sh
+![flowDiagramCR](IMG_0156.JPG)
 ```
 #!/bin/bash
 # sep 30
