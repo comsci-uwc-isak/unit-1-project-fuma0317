@@ -316,6 +316,9 @@ The following script backups the app
 1. check if the argument user typed is right 
 	if it does, copy the app and paste it on desired locaiton
 	if it doesn't, exit
+
+flow diagram for backup.sh
+![flowDiagramBa](IMG_0157.JPG)
 ```
 #!/bin/bash
 
