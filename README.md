@@ -46,6 +46,9 @@ Design
 ### First sketch of the system
 ![systemDiagram](IMG_2213.JPG)
 
+This is the testing plan
+![testingplan](IMG_0179.JPG)
+
 Development
 --------
 ### 1. Script to install the app
