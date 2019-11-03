@@ -90,6 +90,9 @@ The following script delete the file of app
 1. if it's yes, remove the app
 1. if it's no, just exit
 
+flow diagram for unistall.sh
+![flowDiagramUN](IMG_0178.JPG)
+
 ```
 #!/bin/bash
 #This program uninstalls the app
