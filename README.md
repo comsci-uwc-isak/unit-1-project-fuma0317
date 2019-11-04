@@ -342,6 +342,106 @@ else
 	echo "Successfully backed up into $location"
 fi
 ```
+MANPAGES
+----------
+### 1.manpage for install.sh
+```
+.TH man 6 "31 Oct 2019" "1.0" "install man page"
+.SH NAME
+install \- install app
+.SH SYNOPSIS
+bash install.sh 
+.SH DESCRIPTION 
+install is a script that installs app
+.SH EXAMPLES
+bash install.sh
+.SH AUTHOR
+Programmer_Fuma Ito
+```
+### 2.manpage for create.sh
+```
+.TH man 6 "28 Oct 2019" "1.0" "create man page"
+.SH NAME
+create \- create a new car
+.SH SYNOPSIS
+bash create.sh [license] [color] [passengers]
+.SH DESCRIPTION
+create is a script that creates a new record in the database
+.SH EXAMPLES
+bash create.sh LXH798 Mazda Red 3
+.SH AUTHOR
+Programmer_Fuma Ito
+```
+### 3.manpage for record.sh
+```
+.TH man 6 "31 Oct 2019" "1.0" "record man page"
+.SH NAME
+record \- record a car
+.SH SYNOPSIS
+bash record.sh [license plate] [km] [date out] [date in]
+.SH DESCRIPTION
+record is a script that records a record in the database
+.SH EXAMPLES
+bash record.sh 123 45 2019/10/2 2019/10/9
+.SH AUTHOR
+Programmer_Fuma Ito
+```
+### 4.manpage for edit.sh
+```
+.TH man 6 "31 Oct 2019" "1.0" "edit man page"
+.SH NAME
+edit \- edit a car
+.SH SYNOPSIS
+bash edit.sh [license plate] [model] [color] [passengers]
+.SH DESCRIPTION
+edit is a script that edits a record in the database
+.SH EXAMPLES
+bash edit.sh 123 toyota red 4
+.SH AUTHOR
+Programmer_Fuma Ito
+```
+### 5.manpage for deletecar.sh
+```
+.TH man 6 "31 Oct 2019" "1.0" "delete man page"
+.SH NAME
+delete \- delete a car
+.SH SYNOPSIS
+bash deletecar.sh [license plate]
+.SH DESCRIPTION
+delete is a script that deletes a record in the database
+.SH EXAMPLES
+bash deletecar.sh LXH798
+.SH AUTHOR
+Programmer_Fuma Ito
+```
+### 6.manpage for summary.sh
+```
+.TH man 6 "31 Oct 2019" "1.0" "summary man page"
+.SH NAME
+summary \- summarize a car or all cars
+.SH SYNOPSIS
+bash summary.sh [license plate]
+.SH DESCRIPTION 
+summary is a script that summarize a record in the database
+.SH EXAMPLES
+bash summary.sh LXH798
+.SH AUTHOR
+Programmer_Fuma Ito
+```
+### 7.manpage for backup
+```
+.TH man 6 "31 Oct 2019" "1.0" "backup man page"
+.SH NAME
+backup \- backup app
+.SH SYNOPSIS
+bash backup.sh [desired location]
+.SH DESCRIPTION
+backup is a script that backups app in location that you want to save
+.SH EXAMPLES
+bash backup.sh ~/Desktop/kb
+.SH AUTHOR
+Programmer_Fuma Ito
+```
 
 Evaluation
 -----------
