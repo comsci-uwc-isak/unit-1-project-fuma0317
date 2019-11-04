@@ -457,7 +457,36 @@ To check that the car was created in the main file (maincarfile.txt), the folowi
 
 ### Evaluate success criteria
 **1. A car can be created and stored in the database**
-	YES -(bash create.sh Plate, Model, Color, PP) and plate.txt file and maincarfile.txt were created
+	
+ ***YES*** -the command is (bash create.sh Plate, Model, Color, PP) and plate.txt file and maincarfile.txt were created
+	
+**2. A car information can be edited**
+	
+ ***YES*** -the command jumps to edit (bash edit.sh Plate, Model, Color, PP) plate.txt and entry in maincarfile were replaced
+ 
+**3. A car can be deleted from the database**
+
+ ***YES*** -the command jumps to delete (bash deletecar.sh Plate) plate.txt file and entry in maincarfile were deleted
+ 
+**4. The installation is simple**
+
+ ***YES*** -the command starts installation (bash install.sh) it's pretty simple because users just press enter
+ 
+**5. A summary can be generated for a particular car**
+
+ ***YES*** -the command jumps to summary (bash summary.sh Plate) total km for one and all cars were calculated and printed
+ 
+**6. Trips can be recorded and stored for an existing car
+
+ ***YES*** -the command jumps to record (bash record.sh Plate, Km, Dateout, Datein) information about car were added to plate.txt
+ 
+**7. A basic database system is implemented**
+
+ ***YES*** -all data were properly saved and stored in database file
+ 
+**8. A basic backup functionality is available**
+
+ ***YES*** -all data were backed up in desired location 
 
 
 	
