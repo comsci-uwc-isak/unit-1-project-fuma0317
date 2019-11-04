@@ -455,6 +455,13 @@ This is necessary because the `create.sh` resides in the ain folder whereas the 
 To check that the car was created in the main file (maincarfile.txt), the folowing command is used `lastLine = $( tail -n 1 Database/maincarfile.txt )` which is used for setting the last line at the end of the file in valuable.
 `""` is used for recognizing itself as one sentence
 
+### Evaluate success criteria
+**1. A car can be created and stored in the database**
+	YES -(bash create.sh Plate, Model, Color, PP) and plate.txt file and maincarfile.txt were created
+
+
+	
+
 **Summary:** 
 What types of test we did today is that White-box testing.  We firstly create the demo file for testing and then create the program for checking if the file exists or not. And after that, check if the car file was actually added to to the main file by comparing the last line of main file and content of car file.   
 
