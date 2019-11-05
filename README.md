@@ -1,4 +1,10 @@
 ![CarRental](logo.png)
+```.py
+Marks=19
+Demo=4
+Total=(Marks+Demo)=23
+```
+**Graded on Nov 6**
 
 Car Rental Minimal App
 ===========================
@@ -41,6 +47,20 @@ This are measurable outcomes
 1. A basic database system is implemented
 1. A basic backup functionality is avialable.
 
+**Criterion A**
+
+|Level|Descriptor|
+|----|-----|
+|4|The client in the car rental office is identified and his situation is stated. The rationale for choosing the proposed product is partially explained and includes some appropriate criteria for evaluating the success of the product.|
+```.sh
+Rational
+* You can improve this criterion by solving the following questions about the context: Who is the client?
+Why is the product being developed?
+* One more justificaiton for using BASH is that we were learning it. 
+* Research on the internet other features of BASH that makes it a good choice for this system
+* One more justificaiton for using BASH is that we were learning it.
+```
+
 Design
 ---------
 ### First sketch of the system
@@ -48,6 +68,17 @@ Design
 
 This is the testing plan
 ![testingplan](IMG_0179.JPG)
+
+## Criterion B
+|**level**|**Description**|
+|-----|------------|
+|7|An outline test plan is included but partially complete. A system diagram and some flow diagrams for algorithms in the product are included. They provide a basic understanding of how the product was developed.|
+```.sh
+Rationale
+* Great job with the flow diagrams and the system diagram.
+* You are losing marks in this criterion because you did not include the figure captions and the descriptions after every figure. The figure caption is: "Fig. 1. Diagram of the system showing the hardware and software components."
+The description is a paragraph that explains the figure and tells the reader why you included the figure: "As seen in Fig. 1. the system proposed for the CarRentalApp consist of ..."
+```
 
 Development
 --------
@@ -443,6 +474,18 @@ bash backup.sh ~/Desktop/kb
 Programmer_Fuma Ito
 ```
 
+## Criterion C
+|**level**|**Description**|
+|-----|------------|
+|5|The proposed solution is characterized by the appropriate use of existing tools. The techniques are adequate for the task and their use is explained. All sources are identified.|
+```.sh
+Rationale
+* Neat work here Fuma
+* One thing you can improve is to research a bit about ManPages and explain what they are/who use them before showing your own manpages.
+* You can also include the citations to the references of the sources that you researched in the internet using MLA format. For example: "As shown in [1], to read a file in bash we can use:"  then the reference in the bottom of the document in the References section: [1] Pinzon, Ruben. "Read files in bash", ..... 
+```
+
+
 Evaluation
 -----------
 Test 1:
@@ -494,5 +537,13 @@ To check that the car was created in the main file (maincarfile.txt), the folowi
 **Summary:** 
 What types of test we did today is that White-box testing.  We firstly create the demo file for testing and then create the program for checking if the file exists or not. And after that, check if the car file was actually added to to the main file by comparing the last line of main file and content of car file.   
 
-
+## Criterion D
+|**level**|**Description**|
+|-----|------------|
+|3|The product is partially evaluated against the success criteria identified in criterion A. Recommendations for further improvement of the product are largely realistic.
+|
+```.sh
+Rationale
+* You evaluation of the success criteria is sufficient however, you are missing marks because you did not include the section for Future Improvements. This is basically a reflection about the limitations of your solution and how it could be improved or extended.
+```
 
